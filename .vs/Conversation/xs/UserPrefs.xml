@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{98CD75A2-9B6A-07E4-734B-6CDDEF777BB9}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Conversation.cs">
+    <Files>
+      <File FileName="Assets/Script/Conversation.cs" Line="30" Column="54" />
+      <File FileName="Assets/Script/ScenarioMaterials.cs" />
+      <File FileName="Assets/Script/CSVWriter.cs" />
+      <File FileName="Assets/Script/Test.cs" Line="15" Column="34" />
+      <File FileName="Assets/Resources/CSV/Scenarios.csv" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Conversation" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="07790417-bb87-44a0-b08d-9ff3a226816f" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

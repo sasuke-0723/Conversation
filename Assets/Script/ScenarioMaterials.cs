@@ -2,26 +2,33 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
+using UnityEngine.UI;
 
-[CreateAssetMenu(menuName = "Create/Scenario", fileName = "ScenarioMaterials")]
-public class ScenarioMaterials : ScriptableObject
+public class ScenarioMaterials : MonoBehaviour
 {
-	[SerializeField] private List<> scenario
-}
+    private CSVWriter csv;
+    /// <summary> 会話文 </summary>
+    string[] conversation = new string[]
+    {
+        "どうして邪魔をするんです？富岡さん、\n" +
+        "鬼とは仲良くできないって言ってたくせに\n何なんでしょうか, 0",
+        "そんなだから、みんなに嫌われるんですよ, 0",
+        "俺は嫌われてない, 1",
+        "えっ！, 2",
+        "!!!, 0",
+        "あ〜、それ、すみません、\n嫌われている自覚がなかったんですね。\n" +
+        "余計なことを言ってしまって申し訳ないです。, 0",
+        "!!!, 1",
+        "えぇ〜〜〜っ!, 2",
+        "あっ！, 2",
+    };
 
-[Serializable]
-public class ScenarioMaterial
-{
-	/// <summary> キャラクターの名前 </summary>
-	[SerializeField] private string name;
-	/// <summary> ログに出すテキスト </summary>
-	[SerializeField] private string text;
-	/// <summary> 会話しているキャラクターの画像 </summary>
-	[SerializeField] private Image character;
-}
-
-public enum Actor
-{
-	
+    private void Start()
+    {
+        csv = GameObject.Find("CSV").GetComponent<CSVWriter>();
+        for (int i = 0; i < conversation.Length; i++)
+        {
+            csv.WriteCSV(conversation[i]);
+        }
+    }
 }

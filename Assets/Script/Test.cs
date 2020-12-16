@@ -6,13 +6,12 @@ using System.IO;
 
 public class Test : MonoBehaviour
 {
-    [SerializeField] private Image image;
+    [SerializeField] private Sprite image;
     private Sprite[] sprite;
 
     private void Start()
     {
         sprite = Resources.LoadAll<Sprite>("Character");
-        image.sprite = sprite[0];
     }
 
     //private TextAsset csvFile;  // CSVファイル

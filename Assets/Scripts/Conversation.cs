@@ -48,7 +48,7 @@ public class Conversation : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0) && isSkip)
+        if (Input.anyKeyDown && isSkip)
         {
             converText.text = scenariosData[converListIndex].Replace("\\n", "\n");
             converCount = scenariosData[converListIndex].Replace("\\n", "\n").Length;
@@ -76,7 +76,7 @@ public class Conversation : MonoBehaviour
             }
 
             isSkip = false;
-            yield return new WaitUntil(() => Input.GetMouseButtonDown(0)); // マウスが左クリックされるまで待機
+            yield return new WaitUntil(() => Input.anyKeyDown); // マウスが左クリックされるまで待機
             converListIndex++;
         }
     }

@@ -1,25 +1,15 @@
 ﻿<Properties StartupConfiguration="{98CD75A2-9B6A-07E4-734B-6CDDEF777BB9}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Conversation.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ScenarioMaterials.cs">
     <Files>
-      <File FileName="Assets/Script/Conversation.cs" Line="141" Column="21" />
-      <File FileName="Assets/Script/CSVReader.cs" Line="16" Column="6" />
-      <File FileName="Assets/Script/ScenarioMaterials.cs" />
-      <File FileName="Assets/Script/CSVWriter.cs" />
-      <File FileName="Assets/Resources/CSV/Scenarios.csv" Line="4" Column="7" />
-      <File FileName="Assets/Script/CharacterChange.cs" />
-      <File FileName="Assets/Script/Test.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Conversation.cs" Line="119" Column="22" />
+      <File FileName="Assets/Resources/CSV/Scenarios.csv" />
+      <File FileName="Assets/Scripts/ScenarioMaterials.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CSVReader.cs" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Conversation" expanded="True" selected="True" />
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b85b199c-d620-454b-b208-079ee216ae62" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3b1448bf-86e9-49fe-8c36-9c71d0770205" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
